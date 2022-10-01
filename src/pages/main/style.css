@@ -1,0 +1,22 @@
+.btnNum {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.btnNum button {
+    min-width: 40px;
+}
+.btnAdd {
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.btnAdd button {
+    width: 60px;
+    margin-left: 10px;
+}
