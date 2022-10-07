@@ -55,10 +55,8 @@ const Fib = () => {
             if (num >= 10 || num <= -10) {
                 num = eval(num.toString().split('').join('+'));
                 console.log(`Process ${num}`);
-                continue;
             } else {
             return num;
-            break;
             }
         }
     }
